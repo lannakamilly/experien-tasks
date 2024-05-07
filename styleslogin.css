@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #483d8b; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+.login-container {
+    text-align: center; 
+    border: 1px solid rgb(191, 191, 191); 
+    border-radius: 20px; 
+    padding: 0px;
+}
+
+.login-box {
+    display: inline-block;
+    background-color: #7d70bc;
+    border-radius: 20px; 
+    padding: 30px 10px; 
+}
+
+.logo img {
+    width: 300px; 
+    text-align: center;
+}
+
+h2 {
+    color: #fff; 
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+button {
+    width: 30%; 
+    padding: 10px;
+    background-color: #838286; 
+    color: #fff; 
+    border: 1px solid black; 
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adiciona sombreado */
+}
+
+button:hover {
+    background-color: #563d96;
+}
+
+a {
+    color: #fff; 
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: left; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+.input-group a.centered-link {
+    display: inline-block; /* Permite definir largura e altura */
+    width: 150px; /* Define a largura do link (ajuste conforme necessário) */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}

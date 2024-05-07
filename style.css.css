@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#imagem_navbar{
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.color_text:hover{
+    color: red;
+}
+
+header{ 
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #483D8D;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+
+}
+
+.logo{
+    flex: 1;
+    text-align: center;
+}
+
+.logo img{
+    max-width: 100%;
+    height: auto;
+    max-height: 35px;
+    margin-top: 20px;
+}
+
+nav{
+    margin-top: 25px;   
+}
+
+nav ul li {
+    display: inline;
+    margin: 40px;
+    margin-right: 100px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Tarefas */
+#título{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    color: black;
+    font-size: 40px;
+    font-weight: normal;
+    font-weight: bold;
+}
+
+#imagem_logo{
+    width: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.quadrado1{
+    width: 250px;
+    background-color: #F7E3A2;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.quadrado1{
+    grid-area: "top";
+    width: 300px;
+}
+
+h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.quadrado1 ul {
+    list-style-type: none;
+    padding: 0;
+    width: 300px;
+}
+
+.quadrado1 ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555555;
+}
+
+
+
+.quadrado2{
+    width: 250px;
+    background-color: #F7E3A2;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    
+}
+
+.quadrado2{
+    grid-area: "top2";
+}
+
+.quadrado2 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quadrado2 ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555555;
+}
+
+
+
+.quadrado3{
+    width: 250px;
+    background-color: #F7E3A2;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    
+}
+
+.quadrado3{
+    grid-area: "top3";
+}
+
+.quadrado3 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quadrado3 ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555555;
+}
+
+
+.quadrado4{
+    width: 250px;
+    background-color: #F7E3A2;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.quadrado4{
+    grid-area: "mid";
+}
+
+.quadrado4 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quadrado4 ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555555;
+}
+
+
+
+#grid{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-areas: 
+        "top" "top2" "top3"
+        "mid" "mid2" "mid3";
+    gap: 20px;
+    justify-items: center;
+    margin-top: 100px;
+    
+}
+
+.fundo_main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#fundo_perfil{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    flex-direction: column;
+}
+
+#imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img_avatar{
+    width: 50px;
+}
+
+#img_logo{
+    width: 500px;
+    height: 120px !important;
+}
+
+#nome-user{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+#info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info-user{
+    list-style-type: none;
+    flex-direction: column;
+    text-align: center;
+}
+
+#info-user li{
+    margin-bottom: 20px;
+}
+
+/* Galeria */
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+
+#fundo_galeria{
+    margin: 0;
+    margin-top: 70px;
+    background-color: white;
+    width: 1000px;
+    height: 590px;
+    flex-direction: column;
+}
+
+
+.imagens_tamanho{
+    display: flex;
+    justify-content: center;
+}
+
+#centro_textos{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#centro_textos h2{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+#logo_empresa{
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 250px;
+    height: 70px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.tamanho_imagens{
+    width: 250px;
+    height: auto;
+}
+
+#grid{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 1px;
+    
+}
+
+.imagem1{
+    width: 250px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.imagem2{
+    width: 250px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.imagem3{
+    width: 250px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.imagem4{
+    width: 250px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.imagem5{
+    width: 250px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.imagem6{
+    width: 250px;
+    height: 130px;
+    border-radius: 10px;
+
+}
+
+.imagem7{
+    width: 250px;
+    height: 130px;
+    border-radius: 10px;
+
+}
+
+.imagem8{
+    width: 250px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.imagem9{
+    width: 250px;
+    height: 130px;
+    border-radius: 10px;
+}
+.fundo_main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#fundo_perfil{
+    background-color: white;
+    width: 700px;
+    height: 500px;
+    flex-direction: column;
+}
+
+#imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img_avatar{
+    width: 150px;
+}
+
+#img_logo{
+    width: 400px;
+    height: 120px !important;
+}
+
+#nome-user{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info-user{
+    list-style-type: none;
+    flex-direction: column;
+    text-align: center;
+}
+
+#info-user li{
+    margin-bottom: 20px;
+}
